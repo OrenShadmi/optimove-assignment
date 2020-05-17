@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Changa';
+    src: url('../../assets/fonts/Changa_One/ChangaOne-Regular.ttf');
+}
+
+h1{
+    font-family: 'Changa' !important;
+    font-size:2.35em;
+    font-weight:normal;
+    line-height:0.8em;
+}
+
+.container{
+    width:100%;
+    height: 200px;
+    border-bottom: black solid 3px;
+}

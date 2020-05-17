@@ -1,0 +1,6 @@
+
+<app-header></app-header>
+<button *ngIf="pollService.isBackVisible" (click)="onBack()" class="myButton">Back</button>
+<app-food-cont *ngIf="!pollService.isChartCompVisible" class="food-cont"></app-food-cont>
+<app-chart *ngIf="pollService.isChartCompVisible"></app-chart>
+  

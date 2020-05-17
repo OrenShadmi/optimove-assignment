@@ -1,0 +1,6 @@
+    <div class='circle-container center'>
+      <p class='center'>What is your favorite food?</p>
+      <ng-container *ngFor="let item of pollService.items; let i = index">
+        <a  (click)="onImageClick(item.id)" [class]="'deg'+(i*45)"><img src="../../assets/img/food/{{item.name.toLowerCase()}}.jpg" title={{item.name}}></a>  
+      </ng-container>
+    </div>
