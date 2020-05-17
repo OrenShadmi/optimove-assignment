@@ -2,12 +2,11 @@ package optimovehomeassignment.pollservice.services;
 
 import lombok.extern.slf4j.Slf4j;
 
-import optimovehomeassignment.pollservice.dal.ItemCrud;
+import optimovehomeassignment.pollservice.dao.ItemCrud;
 import optimovehomeassignment.pollservice.models.ItemBoundary;
 import optimovehomeassignment.pollservice.models.ItemEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
 import java.util.List;

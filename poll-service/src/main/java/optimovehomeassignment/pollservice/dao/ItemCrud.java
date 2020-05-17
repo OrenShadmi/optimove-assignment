@@ -1,4 +1,4 @@
-package optimovehomeassignment.pollservice.dal;
+package optimovehomeassignment.pollservice.dao;
 
 import optimovehomeassignment.pollservice.models.ItemEntity;
 import org.springframework.data.repository.CrudRepository;

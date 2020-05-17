@@ -1,6 +1,6 @@
 package optimovehomeassignment.pollservice.services;
 
-import optimovehomeassignment.pollservice.dal.ItemCrud;
+import optimovehomeassignment.pollservice.dao.ItemCrud;
 import optimovehomeassignment.pollservice.models.ItemEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
