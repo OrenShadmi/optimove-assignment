@@ -45,7 +45,7 @@ public class SurveyServiceImpl implements SurveyService {
         Map<String, String> map = new HashMap<>();
 
         /** server map to get data from */
-        map.put("127.0.0.1", "8081");
+        map.put("poll-service", "8081");
         return map;
     }
 

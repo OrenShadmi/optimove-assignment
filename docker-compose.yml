@@ -1,0 +1,14 @@
+version: '3'
+services:
+  poll-service:
+    build: ./poll-service
+    ports:
+      - "8081:8081"
+  survey-service:
+    build: ./survey-service
+    ports:
+      - "8082:8082"
+  survey-client:
+    build: ./optimove-client
+    ports:
+      - "8888:80"

@@ -44,7 +44,7 @@ public class PollServiceImpl implements PollService{
     private Map<String, String> initMap() {
         Map<String, String> map = new HashMap<>();
         /** server map to get data from */
-        map.put("127.0.0.1", "8082");
+        map.put("survey-service", "8082");
         return map;
     }
 
